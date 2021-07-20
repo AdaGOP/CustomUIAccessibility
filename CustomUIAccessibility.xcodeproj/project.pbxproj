@@ -13,6 +13,8 @@
 		1BD0C9A626A74266000DDB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD0C9A426A74266000DDB7C /* Main.storyboard */; };
 		1BD0C9A826A7426A000DDB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD0C9A726A7426A000DDB7C /* Assets.xcassets */; };
 		1BD0C9AB26A7426A000DDB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD0C9A926A7426A000DDB7C /* LaunchScreen.storyboard */; };
+		1BD0C9B326A742A4000DDB7C /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD0C9B226A742A4000DDB7C /* PieChartView.swift */; };
+		1BD0C9B526A742F8000DDB7C /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD0C9B426A742F8000DDB7C /* Segment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1BD0C9A726A7426A000DDB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BD0C9AA26A7426A000DDB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BD0C9AC26A7426A000DDB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD0C9B226A742A4000DDB7C /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		1BD0C9B426A742F8000DDB7C /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1BD0C9A726A7426A000DDB7C /* Assets.xcassets */,
 				1BD0C9A926A7426A000DDB7C /* LaunchScreen.storyboard */,
 				1BD0C9AC26A7426A000DDB7C /* Info.plist */,
+				1BD0C9B226A742A4000DDB7C /* PieChartView.swift */,
+				1BD0C9B426A742F8000DDB7C /* Segment.swift */,
 			);
 			path = CustomUIAccessibility;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD0C9B326A742A4000DDB7C /* PieChartView.swift in Sources */,
+				1BD0C9B526A742F8000DDB7C /* Segment.swift in Sources */,
 				1BD0C9A326A74266000DDB7C /* ViewController.swift in Sources */,
 				1BD0C99F26A74266000DDB7C /* AppDelegate.swift in Sources */,
 				1BD0C9A126A74266000DDB7C /* SceneDelegate.swift in Sources */,
